@@ -195,7 +195,7 @@ width: 60%;
     width: 1240px;
     height: 450px;
     margin: 80px auto;
-    background-image: url(/assets/news-letter-bg.png);
+    background-image: url(assets/news-letter-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
