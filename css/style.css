@@ -53,8 +53,7 @@ li a{
     top: 160px;
     left: 0;
     width: 50%;
-    height: 300px;
-    /* border: 1px solid blue; */
+    height: 300px;  
 }
 .largest{
     font-size: 60px;
@@ -86,7 +85,7 @@ li a{
     width: 1140px;
     margin: 50px auto;
 }
-.medel-section h1{
+.medel-text{
     font-size: 40px;
 }
             /* grid-area */
@@ -140,60 +139,61 @@ li a{
     margin: 100px auto;
     display: flex;
     justify-content: space-between;
-  }
-  .parent-img{
+}
+.parent-img{
     width: 50%;
     height: auto;
     background: aqua;
     position: relative;
-  }
-  .masin{
+    
+}
+.masin{
     width: 100%;
     height:  auto;
-  }
-  .trasted{
+}
+.trasted{
     width: 180px;
     height: 180px;
     position: absolute;
     top: -70px;
     right: -70px;
     
-  }
-  .trasted img{
+}
+.trasted img{
     width: 100%;
     height: 100%;
-  }
-  .parent-text{
+}
+.parent-text{
     width: 45%;
     height: 90%;
     /* border: 1px solid blue; */
     transform: translate(0,5%);
-  }
-  .text-big{
+}
+.text-big{
     font-size: 45px;
-  }
+}
   .dark-2{
-color: rgba(72, 66, 66, 0.41);
-font-size: 22px;
-margin-top: 30px;
-padding: 0 20px;
-  }
-    /* flower-area */
-.img-separet{
-    width: 1140px;
-    height: 400px;
-    display: flex;
-    margin: 20px auto;
-    justify-content: space-between;
-}
-.rows{
-    width: 38%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
- .golap{
-    border-radius: 8px;
+      color: rgba(72, 66, 66, 0.41);
+      font-size: 22px;
+      margin-top: 30px;
+      padding: 0 20px;
+    }
+        /* img-speace-area */
+    .img-separet{
+        width: 1140px;
+        height: 400px;
+        display: flex;
+        margin: 20px auto;
+        justify-content: space-between;
+    }
+    .rows{
+        width: 38%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .golap{
+    border-radius: 20px;
     width: 100%;
     height: 48%;
     background-image: url(../assets/deal-bloom.png);
@@ -214,6 +214,7 @@ padding: 0 20px;
     left: 0;
     opacity: 0.3;
     z-index: -1;
+    border-radius: 20px;
 }
 h4{
     color: white;
@@ -224,7 +225,8 @@ h6 a{
     font-size: 20px;
     /* margin-left: 150px; */
 }
-.rows .natur{ 
+.rows .natur{
+    border-radius: 20px;
     width: 100%;
     height: 48%;
     background-image: url(../assets/deal-ana.png);  
@@ -236,6 +238,7 @@ h6 a{
     z-index: 3;
 }
 .hile{
+    border-radius: 20px;
     width: 60%;
     background-image: url(../assets/deal-zabo.png);   
     background-size: cover;
@@ -266,15 +269,16 @@ h6 a{
     background-repeat: no-repeat;
 }
 .form{
-    width: 800px;
+    width: 700px;
     height: auto;
-    transform: translate(200px, 150px);
+    transform: translate(250px, 150px);
     /* border: 1px solid white; */
     text-align: center;
 }
 .form h2{
 font-size: 40px;
 color: white;
+margin-bottom: 10px;
 }
 .inner-service{
     width: 100%;

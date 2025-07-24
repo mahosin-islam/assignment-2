@@ -28,7 +28,8 @@
           /* medel-section-area */
 .medel-section{
     width: 100%;
-    margin-top: 150px;
+    margin-top: 200px;
+    text-align: left;
 }
 
             /* grid-area */
@@ -36,7 +37,8 @@
     width: 100%;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
-    gap: 20px;
+    row-gap: 50px;
+    column-gap: 20px;
  }  
  .cart{
     height: auto;
@@ -46,9 +48,8 @@
   .parent{
     width: 100%;
     height: auto;
+    margin: 70px auto;
     flex-direction: column;
-     border: 1px solid blue;
-     padding-top: 20px;
   }  
    .parent-img{
     width: 100%;
@@ -63,15 +64,23 @@
     width: 100%;
     height: auto;
   }
+  /* meder-area-2 */
+
+  .extra{
+    margin: 50px auto;
+  }
+      /* img-space-area */
   .img-separet{
-    width: 100%;
-    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    height: 620px;
     flex-direction: column;
 }
 .rows{
     width: 100%;
     flex-direction: column;
     justify-content: space-between;
+    row-gap: 20px;
 }
 .rows .golap{
     width: 100%;
@@ -83,18 +92,20 @@
     margin-top: 10px;
 }
 .hile{
+    margin-top: 20px;
     width: 100%;
-    margin-top: 10px;
     height: 200px;
 }
 h4, h6 >a {
     font-size: 20px;
 }
+  
  /* new-letter-are */
 .new-letter{
     width: 100%;
     height: 200px;
-    margin: 40px 0;
+    margin: 20px;
+    margin-left: 0;
 }
 .form{
     width: 80%;
