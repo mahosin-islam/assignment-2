@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
  }
- /* header-area-desing */
+ :root{
+    ---common: rgba(72, 66, 66, 0.41);
+ }
+     /* header-area-desing */
 .header{
     width: 1140px;
     height: auto;
@@ -14,7 +17,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid blue; */
 }
 .nav-img{
     width: 135px;
@@ -25,6 +27,9 @@
     width: 200px;
     justify-content: space-around;
     margin-left: 500px;
+}
+.ul-link .var{
+    color: var(---common);
 }
 .card{
     width: 100px;
@@ -43,8 +48,7 @@ li a{
 .bannar-section{
     width: 1140px;
     height: 460px;
-    margin: 100px auto;
-    /* border: 1px solid blue; */
+    margin: 50px auto;
     display: flex;
     justify-content: space-between;
 }
@@ -73,7 +77,6 @@ li a{
     position: relative;
     top: 100px;
     right: 0;
-    /* border: 1px solid blue; */
 }
 .bannar-png{
     width: 100%;
@@ -101,8 +104,6 @@ li a{
  .cart{
     width: 270px;
     height: 450px;
-    /* border: 1px solid blue; */
-
  }
  .cart-img{
     height: 300px;
@@ -166,14 +167,14 @@ li a{
 .parent-text{
     width: 45%;
     height: 90%;
-    /* border: 1px solid blue; */
-    transform: translate(0,5%);
+    transform: translate(0,10%);
 }
 .text-big{
-    font-size: 45px;
+    font-size: 50px;
+    font-weight: bold;
 }
   .dark-2{
-      color: rgba(72, 66, 66, 0.41);
+      color: var(---common);
       font-size: 22px;
       margin-top: 30px;
       padding: 0 20px;
@@ -212,7 +213,7 @@ li a{
     background: black;
     top: 0;
     left: 0;
-    opacity: 0.3;
+    opacity: 0.4;
     z-index: -1;
     border-radius: 20px;
 }
@@ -223,7 +224,6 @@ h4{
 h6 a{
     color: white;
     font-size: 20px;
-    /* margin-left: 150px; */
 }
 .rows .natur{
     border-radius: 20px;
@@ -272,7 +272,6 @@ h6 a{
     width: 700px;
     height: auto;
     transform: translate(250px, 150px);
-    /* border: 1px solid white; */
     text-align: center;
 }
 .form h2{
@@ -310,13 +309,12 @@ text-align: center;
     height: 250px;
     margin: 50px auto;
     display: flex;
-    /* border: 1px solid blue; */
     justify-content: space-between;
 }
 .first{
     width: 360px;
     height: 180px;
-    /* border: 1px solid blue; */
+ 
 }
 .first .jpg{
     width: 130px;
@@ -329,7 +327,6 @@ text-align: center;
 .second{
     width: 90px;
     height: 250px;
-    /* border: 1px solid blue; */
 }
 .second li{
     list-style: none;
@@ -339,7 +336,14 @@ text-align: center;
 .third{
     width: 130px;
     height: 250px;
+    text-align: left;
 
+}
+.second > li a{
+    color: var(---common);
+}
+.third > li a{
+    color: var(---common);
 }
 .third li{
     list-style: none;
@@ -349,7 +353,6 @@ text-align: center;
 .socail{
     width:  200px;
     height: 150px;
-    /* border: 1px solid blue; */
     display: flex;
     justify-content: space-around;
 }

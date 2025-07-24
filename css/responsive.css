@@ -44,7 +44,7 @@
     height: auto;
     width: 100%;
  }
-  /* prarendt-section */
+     /* prarend-section */
   .parent{
     width: 100%;
     height: auto;
@@ -53,8 +53,6 @@
   }  
    .parent-img{
     width: 100%;
-    /* display: none;
-     */
      height: auto;
   }
   .trasted{
@@ -64,10 +62,10 @@
     width: 100%;
     height: auto;
   }
-  /* meder-area-2 */
-
+     /* meder-area-2 */
   .extra{
     margin: 50px auto;
+    text-align: center;
   }
       /* img-space-area */
   .img-separet{
@@ -99,8 +97,7 @@
 h4, h6 >a {
     font-size: 20px;
 }
-  
- /* new-letter-are */
+     /* new-letter-are */
 .new-letter{
     width: 100%;
     height: 200px;
@@ -116,7 +113,7 @@ h4, h6 >a {
     width: 100%;
     height: 30px;
 }
-/* footer-area */
+     /* footer-area */
 .footer{
     width: 100%;
     height: auto;
@@ -128,11 +125,15 @@ h4, h6 >a {
     height: auto;
     text-align: left;
 }
+.first .space{
+    margin-top: 10px;
+}
 li a{
     font-size: 30px;
     
 }
 .second{
+    margin-top: 10px;
     width: 100%;
     height: auto;
 }
@@ -140,6 +141,14 @@ li a{
     width: 100%;
     height: auto;
     margin-bottom: 20px;
+}
+.second li{
+    text-align: left;
+    margin-left: 10px;
+}
+.third li{
+    text-align: left;
+    margin-left: 10px;
 }
 .socail{
     width: 100%;
